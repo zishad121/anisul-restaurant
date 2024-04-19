@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+[class*=col-] {
+
+    float: left;
+    padding: 15px;
+}
+
+
+[class*=col-] {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header start */
+
+header {
+    padding: 0% 1%;
+    background: teal;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+header img {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+nav ul li {
+    display: block;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: white;
+}
+
+nav a:hover {
+    border-radius: 10px;
+    background: rgb(0, 0, 0, 0.4);
+
+}
+
+/* header end */
+
+
+/* banner start */
+
+.banner-section {
+
+
+   background: url(../img/banner.jpg)no-repeat fixed top /cover;
+}
+
+.banner-contants {
+    padding: 100px 10px;
+    text-align: center;
+}
+
+.banner-contants h1 {
+    background: rgb(255, 255, 0, 0.8);
+    width: 100%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 3rem;
+
+}
+
+.banner-contants p {
+    background: rgb(0, 128, 0, 0.8);
+    width: 300px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+
+.banner-contants button {
+    background: rgb(0, 128, 0, 0.8);
+    width: 160px;
+    margin: 15px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+
+}
+
+.banner-contants button:hover {
+    transform: scale(1.1);
+
+}
+
+
+/* banner end */
+
+
+/* about start */
+
+#about-us {
+    padding: 1%;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+.about-us-content h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.about-us-content p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+
+
+}
+
+/* about end */
+
+
+
+/* food menu start */
+
+#food-menu {
+    padding: 5%;
+}
+
+.card-body {
+    text-align: center;
+   
+}
+
+
+
+
+.card img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    background: green;
+    padding: 10px;
+    color: white;
+}
+
+.card-desc {
+    background: darkgray;
+}
+
+.card-desc p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+
+.card{
+    transition: 0.2s;
+}
+
+.card:hover{
+
+    transform: scale(1.05);
+}
+
+/* food menu end */
+
+
+ /* contact start  */
+ 
+ 
+#contact{
+padding: 1%;
+text-align: center;
+background: blueviolet;
+}
+
+.contact-details{
+    color: white;
+    padding: 20px 0;
+
+}
+
+.contact-details p,address{
+    font-size: 0.8rem;
+}
+
+/* contact end  */
+
+
+
+/* footer start */
+
+footer{
+background: #060930;
+color: white;
+text-align: center;
+}
+
+footer p {
+    line-height: 32px;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 32px;
+}
+
+
+footer a:hover {
+   text-decoration: underline;
+   color: gray;
+}
+
+
+
+/* footer end */
+
+
+
+
+

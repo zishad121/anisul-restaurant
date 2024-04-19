@@ -1,0 +1,148 @@
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .col-l-1 {
+        width: 8.33%;
+    }
+    .col-l-2 {
+        width: 16.66%;
+    }
+    .col-l-3 {
+        width: 25%;
+    }
+    .col-l-4 {
+        width: 33.33%;
+    }
+    .col-l-5 {
+        width: 41.66%;
+    }
+    .col-l-6 {
+        width: 50%;
+    }
+    .col-l-7 {
+        width: 58.33%;
+    }
+    .col-l-8 {
+        width: 66.66%;
+    }
+    .col-l-9 {
+        width: 75%;
+    }
+    .col-l-10 {
+        width: 83.33%;
+    }
+    .col-l-11 {
+        width: 91.66%;
+    }
+    .col-l-12 {
+        width: 100%;
+    }
+
+
+
+
+
+
+    .logo-div {
+        text-align: left;
+    }
+
+    nav {
+        text-align: right;
+    }
+
+
+    nav ul li {
+        display: inline-block;
+
+    }
+
+    nav ul li a {
+        display: inline-block;
+
+    }
+
+    nav a:hover {
+        background: transparent;
+        text-decoration: underline;
+        transform: scale(1.1);
+    }
+
+
+
+
+.about-us-content p {
+    font-size:  1rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+.banner-section {
+height: 100vh;
+position: relative;
+}
+
+.banner-contants {
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.banner-contants h1 {
+   width: 700px;
+font-size: 3rem;
+}
+
+.banner-contants h1 {
+    width: 500px;
+    font-size: 2rem;
+}
+
+
+}
